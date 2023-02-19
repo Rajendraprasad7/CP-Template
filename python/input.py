@@ -18,7 +18,7 @@ def inum():
 n = int(input())
 l = [list(map(int,input().split())) for i in range(n)]
 
-# Adjacency List [space O(V+E) might reduce to O(V^2) if vC2 edges
+# Adjacency List [space O(V+E) might reduce to O(V^2) if vC2 edges]
 l = [[] for i in range(v+1)]
 for i in range(e):
     x,y = list(map(int,input().split()))
